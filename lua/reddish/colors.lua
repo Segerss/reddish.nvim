@@ -55,7 +55,7 @@ local highlights = {
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
-    Ignore      = { fg = c.test, bg = c.background }, -- dark1
+    Ignore      = { fg = c.dark1, bg = c.background }, -- dark1
 
     Error       = { fg = c.normal, bg = c.background },
 
