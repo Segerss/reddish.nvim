@@ -41,8 +41,8 @@ local highlights = {
     Float       = { fg = c.bright3, bg = c.background },
     Boolean     = { fg = c.normal, bg = c.background },
 
-    Identifier  = { fg = c.test, bg = c.background },
-    Function    = { fg = c.bright2, bg = c.background },
+    Identifier  = { fg = c.bright3, bg = c.background }, -- variable names color
+    Function    = { fg = c.test, bg = c.background },
 
     Statement   = { fg = c.normal, bg = c.background },
     Operator    = { fg = c.bright2, bg = c.background },
