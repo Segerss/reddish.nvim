@@ -46,6 +46,8 @@ local highlights = {
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
     Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
+    Visual      = { fg = c.background, bg = c.bright3 }, -- color of variable types int, float, static, void
+
     Operator    = { fg = c.bright2, bg = c.background }, -- standard operator like *=. <<&
 
     PreProc     = { fg = c.normal, bg = c.background },  -- only for some parts of the netrw file explorer in my project
@@ -54,7 +56,7 @@ local highlights = {
 
     Directory   = { fg = c.bright1, bg = c.background }, -- color of directory in Netrw
 
-    MatchParen  = { fg = c.bright3, bg = c.normal },     -- color of directory in Netrw
+    MatchParen  = { fg = c.bright3, bg = c.normal },     -- color of the matching pair of the character which you are currently hovering with your cursor
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
