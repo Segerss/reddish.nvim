@@ -49,9 +49,9 @@ local highlights = {
 
     PreProc     = { fg = c.normal, bg = c.background },  -- only for some parts of the netrw file explorer in my project
 
-    Type        = { fg = c.test, bg = c.background },    -- bright1
+    Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
-    Special     = { fg = c.bright2, bg = c.background },
+    Special     = { fg = c.test, bg = c.background },    -- bright2
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
