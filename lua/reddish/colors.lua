@@ -32,7 +32,7 @@ local highlights = {
     Substitute  = { fg = c.dark2, bg = c.bright3 },
     Pmenu       = { fg = c.bright3, bg = c.dark3 },
     PmenuSel    = { fg = c.dark4, bg = c.bright3 },
-    Whitespace  = { fg = c.test, bg = c.test },          -- bright2, background
+    Whitespace  = { fg = c.bright2, bg = c.background }, -- no clue
 
     Comment     = { fg = c.bright2, bg = c.background }, -- color of comment including // (comment sign)
     String      = { fg = c.bright1, bg = c.background }, -- string inside "" including "
@@ -51,7 +51,7 @@ local highlights = {
 
     Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
-    Special     = { fg = c.bright2, bg = c.background }, -- bright2 this includes the (){} ; and unknown functions
+    Special     = { fg = c.bright1, bg = c.background }, -- bright2 this includes the (){} ; and unknown functions
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
