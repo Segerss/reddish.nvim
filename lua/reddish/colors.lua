@@ -51,11 +51,11 @@ local highlights = {
 
     Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
-    Special     = { fg = c.test, bg = c.background },    -- bright2
+    Special     = { fg = c.bright2, bg = c.background }, -- bright2 this includes the (){} ; and unknown functions
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
-    Ignore      = { fg = c.dark1, bg = c.background },
+    Ignore      = { fg = c.test, bg = c.background }, -- dark1
 
     Error       = { fg = c.normal, bg = c.background },
 
