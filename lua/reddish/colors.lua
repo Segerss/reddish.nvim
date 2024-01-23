@@ -32,11 +32,11 @@ local highlights = {
     Substitute  = { fg = c.dark2, bg = c.bright3 },
     Pmenu       = { fg = c.bright3, bg = c.dark3 },
     PmenuSel    = { fg = c.dark4, bg = c.bright3 },
-    Whitespace  = { fg = c.bright2, bg = c.background },
+    Whitespace  = { fg = c.test, bg = c.background },    -- bright2
 
-    Comment     = { fg = c.bright2, bg = c.background },
-    String      = { fg = c.test, bg = c.background },
-    Character   = { fg = c.test, bg = c.background },
+    Comment     = { fg = c.bright2, bg = c.background }, -- color of comment including // (comment sign)
+    String      = { fg = c.bright1, bg = c.background }, -- string inside "" including "
+    Character   = { fg = c.bright1, bg = c.background }, -- character inside '' including '
     Number      = { fg = c.bright3, bg = c.background },
     Float       = { fg = c.bright3, bg = c.background },
     Boolean     = { fg = c.normal, bg = c.background },  -- just the color of "true" and "false"
