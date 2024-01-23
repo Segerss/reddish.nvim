@@ -45,9 +45,9 @@ local highlights = {
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
 
     Statement   = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
-    Operator    = { fg = c.test, bg = c.background },    -- bright2
+    Operator    = { fg = c.bright2, bg = c.background }, -- standard operator like *=. <<&
 
-    PreProc     = { fg = c.normal, bg = c.background },
+    PreProc     = { fg = c.test, bg = c.background },    -- normal
 
     Type        = { fg = c.bright1, bg = c.background },
 
