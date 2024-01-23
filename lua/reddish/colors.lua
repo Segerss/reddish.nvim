@@ -47,9 +47,9 @@ local highlights = {
     Statement   = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
     Operator    = { fg = c.bright2, bg = c.background }, -- standard operator like *=. <<&
 
-    PreProc     = { fg = c.test, bg = c.background },    -- normal
+    PreProc     = { fg = c.normal, bg = c.background },  -- only for some parts of the netrw file explorer in my project
 
-    Type        = { fg = c.bright1, bg = c.background },
+    Type        = { fg = c.test, bg = c.background },    -- bright1
 
     Special     = { fg = c.bright2, bg = c.background },
 
