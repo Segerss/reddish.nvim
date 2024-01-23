@@ -39,7 +39,7 @@ local highlights = {
     Character   = { fg = c.bright1, bg = c.background },
     Number      = { fg = c.bright3, bg = c.background },
     Float       = { fg = c.bright3, bg = c.background },
-    Boolean     = { fg = c.normal, bg = c.background },
+    Boolean     = { fg = c.test, bg = c.background },    -- normal
 
     Identifier  = { fg = c.bright3, bg = c.background }, -- variable names color
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
