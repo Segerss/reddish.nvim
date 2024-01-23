@@ -34,7 +34,7 @@ local highlights = {
     PmenuSel    = { fg = c.dark4, bg = c.bright3 },
     Whitespace  = { fg = c.bright2, bg = c.background },
 
-    Comment     = { fg = c.bright2, bg = c.background },
+    Comment     = { fg = c.test, bg = c.background },
     String      = { fg = c.bright1, bg = c.background },
     Character   = { fg = c.test, bg = c.background },
     Number      = { fg = c.bright3, bg = c.background },
