@@ -9,6 +9,7 @@ local c = {
     dark3      = '#631033',
     dark4      = '#42001f',
     background = '#101010',
+    test       = '#11ff00',
 }
 
 local highlights = {
@@ -35,7 +36,7 @@ local highlights = {
 
     Comment     = { fg = c.bright2, bg = c.background },
     String      = { fg = c.bright1, bg = c.background },
-    Character   = { fg = c.bright1, bg = c.background },
+    Character   = { fg = c.test, bg = c.background },
     Number      = { fg = c.bright3, bg = c.background },
     Float       = { fg = c.bright3, bg = c.background },
     Boolean     = { fg = c.normal, bg = c.background },
