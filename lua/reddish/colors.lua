@@ -52,6 +52,7 @@ local highlights = {
     Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
     Special     = { fg = c.bright1, bg = c.background }, -- bright2 this includes the (){} ; and unknown functions
+    Directory   = { fg = c.bright1, bg = c.background }, -- color of directory in Netrw
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
