@@ -35,11 +35,11 @@ local highlights = {
     Whitespace  = { fg = c.bright2, bg = c.background },
 
     Comment     = { fg = c.bright2, bg = c.background },
-    String      = { fg = c.bright1, bg = c.background },
-    Character   = { fg = c.bright1, bg = c.background },
+    String      = { fg = c.test, bg = c.background },
+    Character   = { fg = c.test, bg = c.background },
     Number      = { fg = c.bright3, bg = c.background },
     Float       = { fg = c.bright3, bg = c.background },
-    Boolean     = { fg = c.test, bg = c.background },    -- normal
+    Boolean     = { fg = c.normal, bg = c.background },  -- just the color of "true" and "false"
 
     Identifier  = { fg = c.bright3, bg = c.background }, -- variable names color
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
