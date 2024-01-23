@@ -41,18 +41,20 @@ local highlights = {
     Float       = { fg = c.bright3, bg = c.background },
     Boolean     = { fg = c.normal, bg = c.background },  -- just the color of "true" and "false"
 
+    Statement   = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
     Identifier  = { fg = c.bright3, bg = c.background }, -- variable names color
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
+    Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
-    Statement   = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
     Operator    = { fg = c.bright2, bg = c.background }, -- standard operator like *=. <<&
 
     PreProc     = { fg = c.normal, bg = c.background },  -- only for some parts of the netrw file explorer in my project
 
-    Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
-
     Special     = { fg = c.bright1, bg = c.background }, -- bright2 this includes the (){} ; and unknown functions
+
     Directory   = { fg = c.bright1, bg = c.background }, -- color of directory in Netrw
+
+    MatchParen  = { fg = c.bright3, bg = c.normal },     -- color of directory in Netrw
 
     Underlined  = { fg = c.bright1, bg = c.background },
 
