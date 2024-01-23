@@ -44,8 +44,8 @@ local highlights = {
     Identifier  = { fg = c.bright3, bg = c.background }, -- variable names color
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
 
-    Statement   = { fg = c.test, bg = c.background },    --
-    Operator    = { fg = c.bright2, bg = c.background },
+    Statement   = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
+    Operator    = { fg = c.test, bg = c.background },    -- bright2
 
     PreProc     = { fg = c.normal, bg = c.background },
 
