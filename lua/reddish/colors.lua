@@ -14,6 +14,7 @@ local c = {
 
 local highlights = {
     Normal      = { fg = c.bright3, bg = c.background, ctermbg = none },
+    NonText     = { ctermbg = none },
     NormalFloat = { fg = c.bright3, bg = c.background },
     EndOfBuffer = { fg = c.background, bg = c.background },
     LineNr      = { fg = c.bright1, bg = c.background },
