@@ -13,7 +13,7 @@ local c = {
 }
 
 local highlights = {
-    Normal      = { fg = c.bright3, bg = c.background },
+    Normal      = { fg = c.bright3, bg = c.background }, -- guibg = none
     -- NonText     = { guibg = none },
     NormalFloat = { fg = c.bright3, bg = c.background },
     EndOfBuffer = { fg = c.background, bg = c.background },
