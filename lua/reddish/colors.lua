@@ -13,7 +13,7 @@ local c = {
 }
 
 local highlights = {
-    Normal      = { fg = c.bright3, bg = c.background },
+    Normal      = { fg = c.bright3, bg = c.background, ctermbg = none },
     NormalFloat = { fg = c.bright3, bg = c.background },
     EndOfBuffer = { fg = c.background, bg = c.background },
     LineNr      = { fg = c.bright1, bg = c.background },
@@ -46,7 +46,7 @@ local highlights = {
     Function    = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
     Type        = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
-    Visual      = { fg = c.background, bg = c.bright3 }, -- color of variable types int, float, static, void
+    Visual      = { fg = c.background, bg = c.bright3 }, -- color of selected area in visual mode
 
     Operator    = { fg = c.bright2, bg = c.background }, -- standard operator like *=. <<&
 
