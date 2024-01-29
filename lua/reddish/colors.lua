@@ -46,7 +46,7 @@ local highlights = {
     Function     = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
 
     StorageClass = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
-    Type         = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
+    Type         = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
     Structure    = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
     Typedef      = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
 
