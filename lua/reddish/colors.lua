@@ -44,10 +44,11 @@ local highlights = {
     Statement    = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
     Identifier   = { fg = c.bright3, bg = c.background }, -- variable names color
     Function     = { fg = c.bright2, bg = c.background }, -- part of the function calls like cppobject.functioncall()
-    StorageClass = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
-    Type         = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
-    Structure    = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
-    Typedef      = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
+
+    StorageClass = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
+    Type         = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
+    Structure    = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
+    Typedef      = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
 
     Visual       = { fg = c.background, bg = c.bright3 }, -- color of selected area in visual mode
 
