@@ -13,8 +13,7 @@ local c = {
 }
 
 local highlights = {
-    Normal      = { fg = c.bright3, bg = c.background }, -- guibg = none
-    -- NonText     = { guibg = none },
+    Normal      = { fg = c.bright3, bg = c.background },
     NormalFloat = { fg = c.bright3, bg = c.background },
     EndOfBuffer = { fg = c.background, bg = c.background },
     LineNr      = { fg = c.bright1, bg = c.background },
@@ -53,7 +52,7 @@ local highlights = {
 
     PreProc     = { fg = c.normal, bg = c.background },  -- only for some parts of the netrw file explorer in my project
 
-    Special     = { fg = c.bright1, bg = c.background }, -- bright2 this includes the (){} ; and unknown functions
+    Special     = { fg = c.normal, bg = c.background },  -- bright2 this includes the (){} ; and unknown functions
 
     Directory   = { fg = c.bright1, bg = c.background }, -- color of directory in Netrw
 
