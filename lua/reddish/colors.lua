@@ -48,7 +48,7 @@ local highlights = {
     StorageClass = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
     Type         = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
     Structure    = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
-    Typedef      = { fg = c.test, bg = c.background },    -- color of variable types int, float, static, void
+    Typedef      = { fg = c.bright1, bg = c.background }, -- color of variable types int, float, static, void
 
     Visual       = { fg = c.background, bg = c.bright3 }, -- color of selected area in visual mode
 
