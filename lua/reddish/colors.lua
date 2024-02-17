@@ -40,6 +40,7 @@ local highlights = {
     Number       = { fg = c.bright3, bg = c.background },
     Float        = { fg = c.bright3, bg = c.background },
     Boolean      = { fg = c.normal, bg = c.background },  -- just the color of "true" and "false"
+    NonText      = { fg = c.normal, bg = c.background },  -- non text or something
 
     Statement    = { fg = c.normal, bg = c.background },  -- keywords like for if static while return
     Identifier   = { fg = c.bright3, bg = c.background }, -- variable names color
