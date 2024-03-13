@@ -33,6 +33,9 @@ local highlights = {
     Pmenu        = { fg = c.bright3, bg = c.dark3 },
     PmenuSel     = { fg = c.dark4, bg = c.bright3 },
     Whitespace   = { fg = c.bright2, bg = c.background }, -- no clue
+    MoreMsg      = { fg = c.bright3, bg = c.background },
+    ModeMsg      = { fg = c.bright3, bg = c.background },
+    Question     = { fg = c.bright3, bg = c.background },
 
     Comment      = { fg = c.bright2, bg = c.background }, -- color of comment including // (comment sign)
     String       = { fg = c.bright1, bg = c.background }, -- string inside "" including "
