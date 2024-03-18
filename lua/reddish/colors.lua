@@ -36,6 +36,7 @@ local highlights = {
     MoreMsg      = { fg = c.bright3, bg = c.background },
     ModeMsg      = { fg = c.bright3, bg = c.background },
     Question     = { fg = c.bright3, bg = c.background },
+    Title        = { fg = c.bright3, bg = c.background },
 
     Comment      = { fg = c.bright2, bg = c.background }, -- color of comment including // (comment sign)
     String       = { fg = c.bright1, bg = c.background }, -- string inside "" including "
